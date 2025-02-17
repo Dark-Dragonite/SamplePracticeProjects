@@ -6,11 +6,9 @@ public class DeveloperInfo {
     private String bio;
     private String contactEmail;
 
-    // No-argument constructor
     public DeveloperInfo() {
     }
 
-    // Constructor with arguments
     public DeveloperInfo(String name, String title, String bio, String contactEmail) {
         this.name = name;
         this.title = title;
@@ -18,7 +16,6 @@ public class DeveloperInfo {
         this.contactEmail = contactEmail;
     }
 
-    // Getters and Setters
     public String getName() {
         return name;
     }

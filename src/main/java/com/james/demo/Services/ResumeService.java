@@ -17,7 +17,6 @@ public class ResumeService {
     public DeveloperResume getResume() {
         DeveloperResume resume = new DeveloperResume();
 
-        // Set developer info
         DeveloperInfo developerInfo = new DeveloperInfo(
                 "Dark-Dragonite",
                 "Full Stack Developer",
@@ -28,7 +27,6 @@ public class ResumeService {
         String[] skills = new String[] { "Java", "Linux" };
         resume.setSkills(skills);
 
-        // Set experiences
         ExperienceSection experience1 = new ExperienceSection("Company Name", "SWE1", "Jan 2020", "Nov 2020",
                 "description1");
         ExperienceSection experience2 = new ExperienceSection("Company Name", "SWE1", "Jan 2020", "Nov 2020",
@@ -36,7 +34,6 @@ public class ResumeService {
         ExperienceSection[] experiences = new ExperienceSection[] { experience1, experience2 };
         resume.setExperiences(experiences);
 
-        // Set projects
         List<Project> projectList = Arrays.asList(
                 new Project("Project 1", "A web application for managing tasks.", "https://project1.com"),
                 new Project("Project 2", "An e-commerce platform built with React and Spring Boot.",
