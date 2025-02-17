@@ -1,0 +1,126 @@
+/* CyberDream Color Scheme */
+:root {
+    --background: #1a1b26; /* Dark background */
+    --foreground: #a9b1d6; /* Light foreground */
+    --primary: #7aa2f7; /* Bright blue */
+    --secondary: #9ece6a; /* Bright green */
+    --accent: #bb9af7; /* Purple */
+    --highlight: #ff9e64; /* Orange */
+    --text: #c0caf5; /* Light text */
+}
+
+/* General Styles */
+body {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: var(--background);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    color: var(--primary);
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+    color: var(--secondary);
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--accent);
+}
+
+/* Paragraphs */
+p {
+    color: var(--foreground);
+    margin: 10px 0;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: rgba(122, 162, 247, 0.1); /* Light blue background */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    color: var(--foreground);
+}
+
+/* Links */
+a {
+    color: var(--highlight);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Experience Section */
+.experience-section {
+    margin-bottom: 20px;
+}
+
+.experience-section h4 {
+    color: var(--accent);
+}
+
+.experience-section p {
+    color: var(--foreground);
+}
+
+/* Projects Section */
+.projects-section {
+    margin-bottom: 20px;
+}
+
+.projects-section h3 {
+    color: var(--secondary);
+}
+
+.projects-section p {
+    color: var(--foreground);
+}
+
+/* Contact Section */
+.contact-section {
+    margin-top: 20px;
+}
+
+.contact-section h3 {
+    color: var(--secondary);
+}
+
+.contact-section a {
+    color: var(--highlight);
+}
